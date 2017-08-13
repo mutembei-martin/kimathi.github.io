@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+
+		<link type="text/css" rel="stylesheet" href="Petar%20Stojakovic%E2%84%A2%20_%20Designer%20&amp;%20Creative%20Director_files/all.css">
+	</head>
+	<body>
+		
+
+		<div class="container">
+			
+					   <div id="animated-gradient"></div>
+					<div class="layer wave always-visible"></div>
+					
+
+
+					<div id="titles">
+						
+							<h1>
+					</div>
+											
+
+<div class="optimizations">
+		
+		<div id="btn-animate" class="btn optimize"><a href="#"><span class="label">OFF</span></a></div>
+		
+		</div>
+
+
+<svg id="quote-svg">
+							
+		</svg>
+						
+
+			
+</div>
+
+<script type="text/javascript" src="Petar%20Stojakovic%E2%84%A2%20_%20Designer%20&amp;%20Creative%20Director_files/all-min.js"></script>
+
+
+		<!-- Google Analytics -->
+		<script>
+		window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+		ga('create', 'UA-55534400-1', 'auto');
+		ga('send', 'pageview');
+		</script>
+		<script async="" src="Petar%20Stojakovic%E2%84%A2%20_%20Designer%20&amp;%20Creative%20Director_files/analytics.js"></script>
+		<!-- End Google Analytics -->
+
+		<script type="text/javascript">
+			$(function () {
+				var img = document.getElementById('background-image'),
+					optimize = docCookies.getItem('animation') === 'off';
+
+				Site.init({
+					container: '.scroll-content',
+					header: {
+						slider: '#titles',
+						popup: {
+							parent: 'header'
+						},
+						sliderSettings: {
+							stopOnHover: true,
+							autoPlay: true,
+							responsiveRefreshRate: 100,
+							transitionStyle: 'goDown'
+						}
+					},
+					parallax: (isMobile.any) ? true : optimize,
+					scene: (isMobile.any) ? false : true,
+					smoothWheel: (isMobile.any) ? false : true,
+					gradient: false
+				});
+			});
+		</script>
+	
+
+</body></html>
